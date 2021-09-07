@@ -1,0 +1,11 @@
+# copy from https://github.com/mcullan/jupyter-actions/blob/master/environment.yml
+
+name: jupyter-actions
+channels:
+    - conda-forge
+dependencies:
+  - jupyter
+  # - nbformat
+  - nbconvert
+  # - numpy=1.18
+  # - requests=2.24.0
