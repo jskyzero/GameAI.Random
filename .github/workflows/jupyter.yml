@@ -38,7 +38,7 @@ jobs:
         conda activate jupyter-actions
         jupyter nbconvert GameAI.Random.ipynb --to html
         mkdir _site
-        mv GameAI.Random.HTML _site/index.html
+        mv GameAI.Random.html _site/index.html
 
     - name: Commit files
       run: |
